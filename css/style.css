@@ -1,0 +1,75 @@
+
+body{
+    background-color: rgb(4, 34, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+label{
+    color: white;
+}
+
+input{
+    display: block;
+    width: 90%;
+    max-width: 650px;
+    padding: .5em;
+    margin: .5em 0;
+    border-radius: 3em;
+    outline: none;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+input:focus{
+    background-color: rgb(248, 240, 240);
+}
+
+#add-book-btn{
+    padding: .5em 1em;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    
+}
+#add-book-btn:hover{
+  box-shadow: 0 8px 16px 0 rgba(216,216,216,.2);
+}
+
+#table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5em;
+}
+th{
+    background-color: cadetblue;
+    color: white;
+}
+td,th{
+    border: 1px solid rgb(216, 213, 213);
+    padding: .5em .2em;
+    font-size: 1.3rem;
+}
+td{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+tr:nth-child(odd){
+    background-color: #f8f8f8;
+}
